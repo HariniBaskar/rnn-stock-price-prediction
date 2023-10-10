@@ -99,20 +99,12 @@ plt.xlabel('Time')
 plt.ylabel('Google Stock Price')
 plt.legend()
 plt.show()
-
-from sklearn.metrics import mean_squared_error as mse
-mse = mse(y_test,predicted_stock_price)
-print("Mean Squared Error = ",mse)
 ```
 
 ## OUTPUT
 
 ### True Stock Price, Predicted Stock Price vs time
-
-Include your plot here
-
-### Mean Square Error
-
-Include the mean square error
+![image](https://github.com/HariniBaskar/rnn-stock-price-prediction/assets/93427253/8abed3db-e404-4b74-af45-ca8ebe38731f)
 
 ## RESULT
+Thus, a Recurrent Neural Network model for stock price prediction is developed.
